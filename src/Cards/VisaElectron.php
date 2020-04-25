@@ -39,7 +39,7 @@ class VisaElectron extends Card implements CreditCard
      *
      * @var array
      */
-    protected $number_length = [16, 17];
+    protected $number_length = [16];
 
     /**
      * CVC code length's.

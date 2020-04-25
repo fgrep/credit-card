@@ -3,10 +3,9 @@
 namespace LVR\CreditCard;
 
 use LVR\CreditCard\Cards\AmericanExpress;
-use LVR\CreditCard\Cards\Dankort;
 use LVR\CreditCard\Cards\DinersClub;
 use LVR\CreditCard\Cards\Discovery;
-use LVR\CreditCard\Cards\Forbrugsforeningen;
+use LVR\CreditCard\Cards\Elo;
 use LVR\CreditCard\Cards\Hipercard;
 use LVR\CreditCard\Cards\Jcb;
 use LVR\CreditCard\Cards\Maestro;
@@ -22,21 +21,13 @@ class Factory
 {
     protected static $available_cards = [
         // Firs debit cards
-        Dankort::class,
-        Forbrugsforeningen::class,
-        Maestro::class,
+        Elo::class,
         VisaElectron::class,
+        Maestro::class,
         // Debit cards
-        AmericanExpress::class,
-        DinersClub::class,
-        Discovery::class,
-        Jcb::class,
-        Hipercard::class,
-        Mastercard::class,
-        UnionPay::class,
         Visa::class,
-        Mir::class,
-        Troy::class,
+        Mastercard::class,
+        Hipercard::class,
     ];
 
     /**

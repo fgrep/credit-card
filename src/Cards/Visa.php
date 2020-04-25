@@ -39,7 +39,7 @@ class Visa extends Card implements CreditCard
      *
      * @var array
      */
-    protected $number_length = [13, 16];
+    protected $number_length = [13, 16, 19];
 
     /**
      * CVC code length's.

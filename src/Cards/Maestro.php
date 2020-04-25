@@ -11,7 +11,7 @@ class Maestro extends Card implements CreditCard
      *
      * @var string
      */
-    public static $pattern = '/^(5(018|0[235]|[678])|6(1|39|7|8|9))/';
+    public static $pattern = '/^(5018|5020|5038|6304|6390[0-9]{2}|67[0-9]{4})/';
 
     /**
      * Credit card type.

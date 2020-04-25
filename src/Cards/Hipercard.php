@@ -11,7 +11,7 @@ class Hipercard extends Card implements CreditCard
      *
      * @var string
      */
-    public static $pattern = '/^(606282\d{10}(\d{3})?)|(3841\d{15})/';
+    public static $pattern = '/^(384100|384140|384160|606282|637095|637568|60(?!11))/';
 
     /**
      * Credit card type.
@@ -39,7 +39,7 @@ class Hipercard extends Card implements CreditCard
      *
      * @var array
      */
-    protected $number_length = [13, 16, 19];
+    protected $number_length = [14, 15, 16, 17, 18, 19];
 
     /**
      * CVC code length's.

@@ -11,7 +11,7 @@ class AmericanExpress extends Card implements CreditCard
      *
      * @var string
      */
-    public static $pattern = '/^3[47][0-9]/';
+    public static $pattern = '/^3[47]/';
 
     /**
      * Credit card type.

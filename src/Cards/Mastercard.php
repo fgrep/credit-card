@@ -11,7 +11,7 @@ class Mastercard extends Card implements CreditCard
      *
      * @var string
      */
-    public static $pattern = '/^(5[0-5]|2(2(2[1-9]|[3-9])|[3-6]|7(0|1|20)))/';
+    public static $pattern = '/^(5[1-5][0-9]{4}|677189)|^(222[1-9]|2[3-6]\d{2}|27[0-1]\d|2720)([0-9]{2})/';
 
     /**
      * Credit card type.
@@ -25,14 +25,14 @@ class Mastercard extends Card implements CreditCard
      *
      * @var string
      */
-    protected $name = 'mastercard';
+    protected $name = 'master';
 
     /**
      * Brand name.
      *
      * @var string
      */
-    protected $brand = 'Mastercard';
+    protected $brand = 'Master';
 
     /**
      * Card number length's.
